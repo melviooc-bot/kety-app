@@ -10,7 +10,7 @@
     "splash": {
       "image": "./assets/images/final_quest_240x240.png",
       "resizeMode": "contain",
-      "backgroundColor": "#FFF5F8"
+      "backgroundColor": "#6B73FF"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -22,13 +22,12 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/final_quest_240x240.png",
-        "backgroundColor": "#FFF5F8"
+        "backgroundColor": "#6B73FF"
       },
       "package": "com.kety.companion",
       "permissions": [
         "android.permission.RECEIVE_BOOT_COMPLETED",
-        "android.permission.VIBRATE",
-        "android.permission.WAKE_LOCK"
+        "android.permission.VIBRATE"
       ]
     },
     "web": {
@@ -41,11 +40,12 @@
         "expo-notifications",
         {
           "icon": "./assets/images/final_quest_240x240.png",
-          "color": "#FF6B9D",
+          "color": "#6B73FF",
           "defaultChannel": "kety-messages"
         }
       ]
     ],
+    "scheme": "kety",
     "experiments": {
       "typedRoutes": true
     }
